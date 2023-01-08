@@ -1,5 +1,5 @@
 def hantei(arg):
-  if arg > 70 :
+  if arg > 60 :
     print("合格" + str(arg))
   else :
     print("不合格" + str(arg))
@@ -11,4 +11,3 @@ score = 0
 for index in range(1,101):
   score = score + 1
   hantei(score)
-   
